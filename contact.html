@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contacto · La Bruschetteria</title>
+<meta name="description" content="Encuéntranos en el centro de Madrid. Teléfono, email, horario y mapa de La Bruschetteria. Estamos esperándote." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">B</span>
+      <span class="brand-name">La Bruschetteria<small>Trattoria · 2008</small></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="menu.html" data-i18n="nav.menu">Carta</a></li>
+        <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-toggle"><button data-lang="es" type="button">ES</button><button data-lang="en" type="button">EN</button></div>
+      <a href="reservations.html" class="nav-cta" data-i18n="nav.cta">Reservar mesa</a>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-header" style="--ph-bg:url('https://images.unsplash.com/photo-1525518392674-39ba1fca2ec2?auto=format&fit=crop&w=2000&q=80')">
+  <div class="container">
+    <span class="eyebrow" style="color:var(--gold-2)">Trovaci</span>
+    <h1 data-i18n="contact.title">Contacto</h1>
+    <p class="lede" data-i18n="contact.lede">Estamos en pleno centro, esperando tu mesa.</p>
+    <div class="breadcrumb"><a href="index.html" data-i18n="nav.home">Inicio</a> · <span data-i18n="nav.contact">Contacto</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div>
+          <h4 data-i18n="addr.title">Dirección</h4>
+          <p data-i18n="addr.body" data-i18n-mode="html">Calle del Olivo, 24<br>28004 Madrid · España</p>
+        </div>
+        <div>
+          <h4 data-i18n="phone.title">Teléfono</h4>
+          <p><a href="tel:+34915552418">+34 91 555 24 18</a></p>
+        </div>
+        <div>
+          <h4 data-i18n="mail.title">Email</h4>
+          <p><a href="mailto:reservas@labruschetteria.es">reservas@labruschetteria.es</a></p>
+        </div>
+        <div>
+          <h4 data-i18n="hours.title">Horario</h4>
+          <table class="hours-table" style="color:var(--ink)">
+            <tr><td>Mar – Vie</td><td>13:00–16:00 · 19:30–23:30</td></tr>
+            <tr><td>Sáb – Dom</td><td>13:00–17:00 · 19:30–00:00</td></tr>
+            <tr><td>Lunes</td><td>Cerrado</td></tr>
+          </table>
+        </div>
+        <div>
+          <h4 data-i18n="foot.follow">Síguenos</h4>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="TripAdvisor">★</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal delay-1">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7038%2C40.4168%2C-3.6938%2C40.4218&amp;layer=mapnik&amp;marker=40.4193%2C-3.6988"
+            loading="lazy"
+            title="La Bruschetteria · Mapa"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream">
+  <div class="container container-sm">
+    <div class="section-title reveal">
+      <span class="eyebrow">Scrivici</span>
+      <h2 data-i18n="contact.form.title">Escríbenos</h2>
+      <p class="lede" data-i18n="contact.form.lede">Para grupos grandes, eventos privados o cualquier otra consulta.</p>
+    </div>
+
+    <form class="reveal" data-demo>
+      <div class="form-grid">
+        <div class="field">
+          <label data-i18n="form.name">Nombre</label>
+          <input type="text" required>
+        </div>
+        <div class="field">
+          <label data-i18n="form.email">Email</label>
+          <input type="email" required>
+        </div>
+        <div class="field">
+          <label data-i18n="form.phone">Teléfono</label>
+          <input type="tel">
+        </div>
+        <div class="field">
+          <label data-i18n="form.subject">Asunto</label>
+          <input type="text">
+        </div>
+        <div class="field full">
+          <label data-i18n="form.message">Mensaje</label>
+          <textarea rows="5" required></textarea>
+        </div>
+        <div class="field full">
+          <button type="submit" class="btn btn-primary"><span data-i18n="form.send">Enviar mensaje</span><span class="arrow">→</span></button>
+        </div>
+      </div>
+      <div class="form-success" data-i18n="form.success">¡Gracias! Hemos recibido tu mensaje y te responderemos en menos de 24 horas.</div>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">B</span>
+          <span class="brand-name">La Bruschetteria<small>Trattoria · 2008</small></span>
+        </a>
+        <p data-i18n="foot.tagline">Cocina italiana honesta, mesa por mesa, plato por plato.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="TripAdvisor">★</a>
+        </div>
+      </div>
+      <div>
+        <h5 data-i18n="foot.explore">Explora</h5>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="about.html" data-i18n="nav.about">Nosotros</a></li>
+          <li><a href="menu.html" data-i18n="nav.menu">Carta</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Galería</a></li>
+          <li><a href="reservations.html" data-i18n="nav.reserve">Reservar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="foot.visit">Visítanos</h5>
+        <ul>
+          <li>Calle del Olivo, 24</li>
+          <li>28004 Madrid · España</li>
+          <li>+34 91 555 24 18</li>
+          <li>reservas@labruschetteria.es</li>
+        </ul>
+      </div>
+      <div>
+        <h5 data-i18n="hours.title">Horario</h5>
+        <ul>
+          <li>Mar–Dom · 13:00–16:00</li>
+          <li>Mar–Dom · 19:30–23:30</li>
+          <li>Lunes cerrado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="foot.legal">© <span data-year>2026</span> La Bruschetteria · Todos los derechos reservados</span>
+      <span><a href="#" data-i18n="foot.privacy">Privacidad</a> · <a href="#" data-i18n="foot.cookies">Cookies</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

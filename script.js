@@ -1,5 +1,5 @@
 /* =============================================================
-   La Bruschetteria — interactivity & i18n
+   La Bruschetteria — interactivity & i18n (traditional Italian)
    ============================================================= */
 
 /* ---------- i18n dictionary ---------- */
@@ -14,81 +14,81 @@ const I18N = {
     'nav.reserve': 'Reservar',
     'nav.cta': 'Reservar mesa',
 
-    /* hero (home) */
-    'hero.eyebrow': 'Steakhouse italiano · Brasa y producto',
-    'hero.title': 'Brasa, carne y <span class="accent">tradición italiana</span>',
-    'hero.lede': 'Carnes maduradas, parrilla de carbón y bruschettas a la brasa. El steakhouse italiano donde la carne se trata con respeto.',
-    'hero.cta1': 'Reserva tu mesa',
+    /* hero */
+    'hero.eyebrow': 'Trattoria italiana · Auténtica',
+    'hero.title': 'Una <span class="accent">trattoria</span><br>como en Italia',
+    'hero.lede': 'Pasta fatta in casa, pizza al horno, antipasti tradicionales y un servicio que te recibe como en familia. La cocina italiana que aprendimos en casa.',
+    'hero.cta1': 'Reservar mesa',
     'hero.cta2': 'Ver la carta',
-    'hero.meta1': 'Desde 2008',
-    'hero.meta2': 'Parrilla abierta hasta tarde',
-    'hero.meta3': 'Carne madurada en casa',
+    'hero.meta1': 'Cucina italiana',
+    'hero.meta2': 'Pasta fresca diaria',
+    'hero.meta3': 'Forno · 450°C',
 
     /* welcome */
     'welcome.eyebrow': 'Benvenuti',
-    'welcome.title': 'La brasa italiana, en su mejor versión',
-    'welcome.lede': 'No somos un steakhouse más. Somos una familia italiana que entiende la carne: maduración, fuego de carbón y respeto al producto.',
-    'welcome.body': 'Cada mañana encendemos la brasa, seleccionamos las piezas en cámara y ponemos al fuego solo lo que vale la pena. Pocas mesas, mucha carne. Nuestra carta es pequeña por elección: preferimos hacer pocas cosas, y hacerlas extraordinariamente bien.',
+    'welcome.title': 'Italia, en cada plato',
+    'welcome.lede': 'Somos una familia italiana cocinando lo que aprendimos de nuestra madre y nuestra abuela. Sin atajos, sin compromisos: solo el sabor que viene de hacer las cosas bien.',
+    'welcome.body': 'Nuestra masa fermenta 48 horas. Nuestra pasta se amasa cada mañana a las seis. Nuestra burrata llega de Puglia, nuestro prosciutto de Parma, nuestro aceite de Toscana. La carta es pequeña porque solo cocinamos lo que sabemos hacer bien.',
     'welcome.signature': '— Famiglia La Bruschetteria',
 
     /* features */
-    'feat.title': 'Por qué La Bruschetteria',
-    'feat.lede': 'Tres pilares que defienden cada pieza que sale de la parrilla.',
-    'feat1.title': 'Maduración en casa',
-    'feat1.body': 'Cámara de maduración propia: dry-aged 28, 45 y 60 días. La carne se respeta, no se apura.',
-    'feat2.title': 'Parrilla de carbón',
-    'feat2.body': 'Carbón de encina ardiendo a 700°C. Costra perfecta, jugo intacto. Solo el fuego sabe sellar así.',
-    'feat3.title': 'Bodega italiana',
-    'feat3.body': 'Tintos estructurados de Toscana y Piemonte. Vinos pensados para acompañar carne de verdad.',
-    'feat4.title': 'Carne de origen',
-    'feat4.body': 'Rubia gallega, Chianina toscana, Wagyu certificado. Sabemos de dónde viene cada pieza.',
+    'feat.title': 'La cucina italiana, hecha bien',
+    'feat.lede': 'Cuatro pilares que defienden cada plato que sale de la cocina.',
+    'feat1.title': 'Pasta fresca diaria',
+    'feat1.body': 'Harina italiana 00, huevos camperos y manos a las seis de la mañana. Tagliatelle, ravioli, gnocchi: hechos hoy.',
+    'feat2.title': 'Pizza al horno',
+    'feat2.body': 'Masa madre fermentada 48 horas. Horno tradicional a 450°C. Mozzarella di bufala, San Marzano, albahaca fresca.',
+    'feat3.title': 'Producto italiano',
+    'feat3.body': 'Burrata de Andria, prosciutto di Parma, aceite toscano de primera prensada, tomate del Piennolo del Vesuvio.',
+    'feat4.title': 'Bodega italiana',
+    'feat4.body': 'Más de 80 etiquetas seleccionadas: Chianti, Barolo, Brunello, Prosecco. La Italia que se bebe.',
 
     /* menu preview */
     'menu.eyebrow': 'Nuestra carta',
-    'menu.title': 'La carta del fuego',
-    'menu.lede': 'Carnes a la brasa, antipasti italianos y postres caseros. La cocina del fuego con acento italiano.',
-    'menu.cat1': 'Bruschettas',
-    'menu.cat1.desc': 'El bocado de bienvenida.',
+    'menu.title': 'Sabores que recorren Italia',
+    'menu.lede': 'Una carta que viaja del Piamonte a Sicilia, pasando por la Toscana, Nápoles, Bologna y Puglia.',
+    'menu.cat1': 'Antipasti',
+    'menu.cat1.desc': 'El comienzo: tablas, burrata, vitello tonnato, carpaccio.',
     'menu.cat2': 'Pasta',
-    'menu.cat2.desc': 'Cortes premium madurados.',
+    'menu.cat2.desc': 'Hecha cada mañana. Tagliatelle, ravioli, gnocchi, lasagna.',
     'menu.cat3': 'Pizza',
-    'menu.cat3.desc': 'Masa madre, fermentada 48 horas. Parrilla de carbón a 450°C.',
-    'menu.cat4': 'Cortes premium',
-    'menu.cat4.desc': 'El alma de la casa.',
+    'menu.cat3.desc': 'Masa madre fermentada 48 horas. Horno a 450°C.',
+    'menu.cat4': 'Dolci',
+    'menu.cat4.desc': 'Tiramisù, panna cotta, cannoli sicilianos, sfogliatella.',
     'menu.viewAll': 'Ver carta completa',
 
     /* story */
     'story.eyebrow': 'Nuestra historia',
-    'story.title': 'Tres generaciones, una sola obsesión: el fuego',
-    'story.lede': '«Mi abuelo asaba el cordero los domingos sobre brasa de viña. De ahí venimos. Nunca lo hemos olvidado.»',
-    'story.p1': 'La Bruschetteria nació en 2008 de la mano de Lorenzo y Sofia, dos hermanos que dejaron Bologna con una sola idea: ofrecer a España la carne tratada como su padre les enseñó. Brasa de carbón, maduración propia y tiempo.',
-    'story.p2': 'Hoy seguimos siendo una casa pequeña por convicción. Cada corte que sale a sala pasa por nuestras manos, nuestra cámara y nuestra brasa.',
+    'story.title': 'Tres generaciones de cocina familiar',
+    'story.lede': '«La cocina italiana no es complicada. Es buena materia prima, tiempos respetados y la paciencia de hacer las cosas como se hacían en casa.»',
+    'story.p1': 'La Bruschetteria nació en 2008 de la mano de Lorenzo y Sofia, dos hermanos que dejaron Bologna con una sola idea: ofrecer a España la cocina italiana que su madre les preparaba los domingos.',
+    'story.p2': 'Empezaron con seis mesas, un horno de leña y las recetas de su nonna. Hoy seguimos siendo una casa pequeña por convicción. Aquí cada plato lleva nuestro nombre.',
     'story.cta': 'Conoce nuestra historia',
 
     /* stats */
-    'stats.title': 'Lo que somos en números',
-    'stat1': 'Años en familia',
-    'stat2': 'Recetas originales',
-    'stat3': 'Etiquetas en bodega',
-    'stat4': 'Clientes felices',
+    'stats.title': 'La Bruschetteria en números',
+    'stat1': 'Años cocinando',
+    'stat2': 'Recetas tradicionales',
+    'stat3': 'Etiquetas de vino',
+    'stat4': 'Comensales felices',
 
     /* reviews */
     'reviews.eyebrow': 'Testimonios',
     'reviews.title': 'Lo que dicen nuestros comensales',
     'reviews.lede': 'Más de 1.200 reseñas de cinco estrellas en Google y TripAdvisor.',
-    'r1.text': 'El mejor chuletón que he comido fuera del País Vasco. Maduración perfecta, costra exterior, jugo dentro. Vuelvo seguro.',
+    'r1.text': 'La mejor pasta fresca que he comido fuera de Italia. Las bruschettas son una experiencia: el pan, los tomates, ese aceite… volveré pronto.',
     'r1.author': 'Marta R.',
     'r1.note': 'Reseña en Google · 5 estrellas',
-    'r2.text': 'Ambiente cálido, servicio impecable y carne tratada con respeto. Pedimos el tomahawk para dos y la tagliata de Chianina: ambos sublimes.',
+    'r2.text': 'Ambiente cálido, servicio impecable y una carta que respeta la tradición. Pedimos los tagliatelle al ragù y la pizza prosciutto e burrata: ambos sublimes.',
     'r2.author': 'James W.',
     'r2.note': 'TripAdvisor · 5 estrellas',
-    'r3.text': 'Nos hicieron sentir como en casa. La sommelier nos recomendó un Barolo que combinó perfecto con el chuletón madurado 60 días. Inolvidable.',
+    'r3.text': 'Nos hicieron sentir como en casa de la nonna. La sommelier nos recomendó un Barolo que combinó perfecto con el ossobuco. Inolvidable.',
     'r3.author': 'Ana & Luis',
     'r3.note': 'Aniversario · Octubre 2025',
 
     /* CTA banner */
     'cta.title': 'Reserva tu mesa esta noche',
-    'cta.body': 'Las mejores noches se reservan con tiempo. Asegura tu sitio frente a la parrilla.',
+    'cta.body': 'Las mejores noches se reservan con tiempo. Asegura tu sitio en el corazón de la trattoria.',
     'cta.btn': 'Hacer reserva',
 
     /* hours / footer */
@@ -102,7 +102,7 @@ const I18N = {
     'mail.body': 'reservas@labruschetteria.es',
 
     /* footer */
-    'foot.tagline': 'Brasa, carne y tradición italiana. Pieza por pieza, fuego por fuego.',
+    'foot.tagline': 'Cucina italiana tradizionale. Pasta fresca, pizza al horno y la mesa puesta como en casa.',
     'foot.explore': 'Explora',
     'foot.visit': 'Visítanos',
     'foot.follow': 'Síguenos',
@@ -112,30 +112,30 @@ const I18N = {
 
     /* about page */
     'about.title': 'Nuestra historia',
-    'about.lede': 'De Bologna a Madrid, con escala en cada brasa.',
-    'about.s1.title': 'Nació junto a una parrilla',
-    'about.s1.lede': '«Si nuestro padre viera el fuego que mantenemos cada noche, no estaría sorprendido. Estaría orgulloso de que no hemos olvidado nada.»',
-    'about.s1.p1': 'En 2008, Lorenzo y Sofia abrieron una pequeña casa con seis mesas, una parrilla de carbón y la convicción de que España merecía conocer la brasa italiana real.',
-    'about.s1.p2': 'Trajeron la parrilla de un herrero piamontés, un acuerdo con ganaderos toscanos de Chianina y la receta de la marinada que su abuelo guardaba para las fiestas.',
-    'about.s2.title': 'El fuego que no transige',
-    'about.s2.lede': 'Carne madurada cada semana, brasa cada noche, tiempos que se respetan.',
-    'about.s2.p1': 'La cámara abre a las 6 de la mañana. Antes de que llegue el primer comensal, Marco ya ha revisado las piezas, Lucia ha encendido la brasa y los cortes del día están atemperando.',
+    'about.lede': 'De Bologna a Madrid, con escala en cada plato.',
+    'about.s1.title': 'Nació en una cocina pequeña',
+    'about.s1.lede': '«Si mi abuela viera lo que hoy cocinamos, no estaría sorprendida. Estaría orgullosa de que no hemos olvidado nada.»',
+    'about.s1.p1': 'En 2008, Lorenzo y Sofia abrieron una pequeña trattoria con seis mesas, un horno de leña y la convicción de que España merecía conocer la cocina italiana real.',
+    'about.s1.p2': 'Trajeron la receta del ragù de su abuela, el horno de uno de los mejores artesanos de la Emilia-Romagna, y un acuerdo con un proveedor de aceite toscano que aún hoy nos sigue mandando cada otoño la primera prensada.',
+    'about.s2.title': 'La cocina que no transige',
+    'about.s2.lede': 'Pasta cada día, masa cada día, salsas que respetan los tiempos.',
+    'about.s2.p1': 'Nuestra cocina abre a las 6 de la mañana. Antes de que llegue el primer comensal, Marco ya ha amasado los tagliatelle del día, Lucia ha encendido el horno y la salsa de tomate lleva tres horas reduciendo a fuego lento.',
     'about.s2.p2': 'No usamos nada congelado. Nada precocinado. Nada que no podamos rastrear hasta su origen. Es más caro, sí. Pero también es la única manera de cocinar que conocemos.',
     'about.s3.title': 'Las personas detrás de la mesa',
     'about.s3.lede': 'Un equipo que se siente familia, no plantilla.',
-    'about.s3.p1': 'Lorenzo dirige la sala como dirigía la parrilla su padre: con ojo atento y paciencia infinita. Sofia es la jefa de fuego y la guardiana de la cámara. Marco es el parrillero que llegó hace nueve años y ya no se fue.',
-    'about.s3.p2': 'Cuando entras, Lorenzo te reconoce. Sofia se asoma desde la brasa si llegas con buena cara. Marco te explica cómo se ha madurado la pieza si se lo preguntas. Eso es La Bruschetteria.',
+    'about.s3.p1': 'Lorenzo dirige la sala como dirigía la cocina su padre: con ojo atento y paciencia infinita. Sofia es la jefa de cocina y la guardiana de las recetas. Marco es el pasta-maker que llegó hace nueve años y ya no se fue.',
+    'about.s3.p2': 'Cuando entras, Lorenzo te reconoce. Sofia se asoma desde la cocina si llegas con buena cara. Marco te explica cómo se ha hecho la pasta si se lo preguntas. Eso es La Bruschetteria.',
 
     /* values */
     'values.title': 'Nuestros valores',
     'values.lede': 'Cuatro principios que nos guían cada servicio.',
-    'val1.title': 'Tradición',
+    'val1.title': 'Tradizione',
     'val1.body': 'Recetas que no inventamos. Solo respetamos.',
-    'val2.title': 'Producto',
+    'val2.title': 'Materia prima',
     'val2.body': 'De origen, de temporada, de mercado.',
-    'val3.title': 'Tiempo',
+    'val3.title': 'Tempo',
     'val3.body': 'No hay atajos en una cocina honesta.',
-    'val4.title': 'Hospitalidad',
+    'val4.title': 'Ospitalità',
     'val4.body': 'Una mesa nuestra es una mesa tuya.',
 
     /* menu page */
@@ -145,9 +145,9 @@ const I18N = {
     'menutab.antipasti': 'Antipasti',
     'menutab.pasta': 'Pasta',
     'menutab.pizza': 'Pizza',
-    'menutab.mains': 'Carnes y Pescados',
+    'menutab.mains': 'Secondi',
     'menutab.desserts': 'Dolci',
-    'menutab.drinks': 'Bebidas',
+    'menutab.drinks': 'Bevande',
     'menupage.note.title': 'Información alérgenos',
     'menupage.note.body': 'Pídale a su camarero la carta de alérgenos. Adaptamos platos para opciones sin gluten y vegetarianas siempre que es posible.',
 
@@ -195,60 +195,60 @@ const I18N = {
     'nav.cta': 'Book a table',
 
     /* hero */
-    'hero.eyebrow': 'Italian steakhouse · Fire and produce',
-    'hero.title': 'Fire, beef and <span class="accent">Italian tradition</span>',
-    'hero.lede': 'Dry-aged beef, charcoal grill and bruschettas over fire. The Italian steakhouse where meat is treated with respect.',
-    'hero.cta1': 'Reserve your table',
+    'hero.eyebrow': 'Italian trattoria · Authentic',
+    'hero.title': 'A <span class="accent">trattoria</span><br>like in Italy',
+    'hero.lede': 'Hand-rolled pasta, wood-fired pizza, traditional antipasti and service that welcomes you like family. The Italian cooking we learned at home.',
+    'hero.cta1': 'Book a table',
     'hero.cta2': 'See the menu',
-    'hero.meta1': 'Since 2008',
-    'hero.meta2': 'Grill open late',
-    'hero.meta3': 'Beef aged in-house',
+    'hero.meta1': 'Cucina italiana',
+    'hero.meta2': 'Fresh pasta daily',
+    'hero.meta3': 'Forno · 450°C',
 
     /* welcome */
     'welcome.eyebrow': 'Benvenuti',
-    'welcome.title': 'The Italian grill, at its finest',
-    'welcome.lede': 'We are not just another steakhouse. We are an Italian family that understands meat: aging, charcoal fire and respect for the cut.',
-    'welcome.body': 'Every morning we light the coals, hand-pick the cuts from our cellar, and put on the fire only what is worth it. Few tables, lots of beef.',
+    'welcome.title': 'Italy, on every plate',
+    'welcome.lede': 'We\'re an Italian family cooking what we learned from our mother and our grandmother. No shortcuts, no compromises: just the flavor of doing things right.',
+    'welcome.body': 'Our dough ferments 48 hours. Our pasta is kneaded fresh every morning at six. Our burrata comes from Puglia, our prosciutto from Parma, our oil from Tuscany. The menu is small because we only cook what we know how to cook well.',
     'welcome.signature': '— The La Bruschetteria family',
 
     /* features */
-    'feat.title': 'Why La Bruschetteria',
-    'feat.lede': 'Three pillars behind every cut that leaves our grill.',
-    'feat1.title': 'In-house dry-aging',
-    'feat1.body': 'Italian 00 flour, free-range eggs and Marco\'s hands at 6 a.m. No frozen, no shortcuts.',
-    'feat2.title': 'Charcoal grill',
-    'feat2.body': 'Holm oak charcoal burning at 700°C. Perfect crust, juice locked in. Only fire sears like this.',
-    'feat3.title': 'Italian cellar',
-    'feat3.body': 'Structured reds from Tuscany and Piemonte. Wines built to stand up to real beef.',
-    'feat4.title': 'Beef of origin',
-    'feat4.body': 'Galician Rubia, Tuscan Chianina, certified Wagyu. We know where every cut comes from.',
+    'feat.title': 'Italian cooking, done right',
+    'feat.lede': 'Four pillars behind every plate that leaves our kitchen.',
+    'feat1.title': 'Fresh pasta daily',
+    'feat1.body': 'Italian 00 flour, free-range eggs and hands at six in the morning. Tagliatelle, ravioli, gnocchi — made today.',
+    'feat2.title': 'Wood-fired pizza',
+    'feat2.body': 'Sourdough fermented 48 hours. Traditional oven at 450°C. Mozzarella di bufala, San Marzano, fresh basil.',
+    'feat3.title': 'Italian produce',
+    'feat3.body': 'Burrata from Andria, prosciutto di Parma, first-press Tuscan oil, Piennolo del Vesuvio tomatoes.',
+    'feat4.title': 'Italian cellar',
+    'feat4.body': 'Over 80 hand-picked labels: Chianti, Barolo, Brunello, Prosecco. The Italy you drink.',
 
     /* menu preview */
     'menu.eyebrow': 'Our menu',
-    'menu.title': 'The fire menu',
-    'menu.lede': 'Wood-fired beef, Italian antipasti and house desserts. Fire-driven cooking with an Italian accent.',
-    'menu.cat1': 'Bruschettas',
-    'menu.cat1.desc': 'The welcome bite.',
+    'menu.title': 'Flavors that travel Italy',
+    'menu.lede': 'A menu that travels from Piedmont to Sicily, by way of Tuscany, Naples, Bologna and Puglia.',
+    'menu.cat1': 'Antipasti',
+    'menu.cat1.desc': 'The beginning: charcuterie boards, burrata, vitello tonnato, carpaccio.',
     'menu.cat2': 'Pasta',
-    'menu.cat2.desc': 'Premium dry-aged cuts.',
+    'menu.cat2.desc': 'Made every morning. Tagliatelle, ravioli, gnocchi, lasagna.',
     'menu.cat3': 'Pizza',
-    'menu.cat3.desc': 'Sourdough, fermented 48 hours. Charcoal grill at 450°C.',
-    'menu.cat4': 'Premium cuts',
-    'menu.cat4.desc': 'The soul of the house.',
+    'menu.cat3.desc': 'Sourdough fermented 48 hours. Oven at 450°C.',
+    'menu.cat4': 'Dolci',
+    'menu.cat4.desc': 'Tiramisù, panna cotta, Sicilian cannoli, sfogliatella.',
     'menu.viewAll': 'See full menu',
 
     /* story */
     'story.eyebrow': 'Our story',
-    'story.title': 'Three generations, one obsession: fire',
-    'story.lede': '"My grandfather grilled lamb on vine coals every Sunday. That is where we come from. We have not forgotten."',
-    'story.p1': 'La Bruschetteria was born in 2008 from the hands of Lorenzo and Sofia, two siblings who left Bologna with one idea: to offer Spain beef treated the way their father taught them. Charcoal fire, in-house aging, time.',
-    'story.p2': 'We are still a small house by conviction. Every cut that reaches the table passes through our hands, our cellar and our grill.',
+    'story.title': 'Three generations of family cooking',
+    'story.lede': '"Italian cooking isn\'t complicated. It\'s good ingredients, respected timings and the patience to do things the way they were done at home."',
+    'story.p1': 'La Bruschetteria was born in 2008 from the hands of Lorenzo and Sofia, two siblings who left Bologna with one idea: to offer Spain the Italian cuisine their mother used to make on Sundays.',
+    'story.p2': 'They started with six tables, a wood-fired oven and their nonna\'s recipes. We\'re still a small house by conviction. Every plate carries our name.',
     'story.cta': 'Read the full story',
 
     /* stats */
-    'stats.title': 'What we are in numbers',
-    'stat1': 'Years as a family',
-    'stat2': 'Original recipes',
+    'stats.title': 'La Bruschetteria in numbers',
+    'stat1': 'Years cooking',
+    'stat2': 'Traditional recipes',
     'stat3': 'Wines in cellar',
     'stat4': 'Happy guests',
 
@@ -259,16 +259,16 @@ const I18N = {
     'r1.text': 'The best fresh pasta I\'ve had outside Italy. The bruschettas are an experience: the bread, the tomatoes, that olive oil… I\'ll be back soon.',
     'r1.author': 'Marta R.',
     'r1.note': 'Google review · 5 stars',
-    'r2.text': 'Warm atmosphere, impeccable service and beef handled with respect. We ordered the tomahawk for two and the Chianina tagliata — both sublime.',
+    'r2.text': 'Warm atmosphere, impeccable service and a menu that respects tradition. We ordered the tagliatelle al ragù and the prosciutto-burrata pizza — both sublime.',
     'r2.author': 'James W.',
     'r2.note': 'TripAdvisor · 5 stars',
     'r3.text': 'They made us feel like at nonna\'s house. The sommelier recommended a Barolo that paired perfectly with the ossobuco. Unforgettable.',
     'r3.author': 'Ana & Luis',
     'r3.note': 'Anniversary · October 2025',
 
-    /* CTA banner */
+    /* CTA */
     'cta.title': 'Reserve your table tonight',
-    'cta.body': 'The best evenings are booked ahead. Secure your seat by the grill.',
+    'cta.body': 'The best evenings are booked ahead. Secure your seat at the heart of the trattoria.',
     'cta.btn': 'Book now',
 
     /* hours / footer */
@@ -282,7 +282,7 @@ const I18N = {
     'mail.body': 'reservations@labruschetteria.es',
 
     /* footer */
-    'foot.tagline': 'Fire, beef and Italian tradition. Cut by cut, fire by fire.',
+    'foot.tagline': 'Traditional Italian cooking. Fresh pasta, wood-fired pizza and a table set like at home.',
     'foot.explore': 'Explore',
     'foot.visit': 'Visit us',
     'foot.follow': 'Follow us',
@@ -290,20 +290,20 @@ const I18N = {
     'foot.privacy': 'Privacy',
     'foot.cookies': 'Cookies',
 
-    /* about page */
+    /* about */
     'about.title': 'Our story',
-    'about.lede': 'From Bologna to Madrid, with a stop at every grill.',
-    'about.s1.title': 'It started next to a grill',
+    'about.lede': 'From Bologna to Madrid, with a stop in every plate.',
+    'about.s1.title': 'It started in a small kitchen',
     'about.s1.lede': '"If my grandmother saw what we cook today, she wouldn\'t be surprised. She\'d be proud we forgot nothing."',
-    'about.s1.p1': 'In 2008, Lorenzo and Sofia opened a small trattoria with six tables, a wood-fired oven, and the conviction that Spain deserved real Italian cooking — the kind that doesn\'t make it into manuals.',
+    'about.s1.p1': 'In 2008, Lorenzo and Sofia opened a small trattoria with six tables, a wood-fired oven, and the conviction that Spain deserved real Italian cooking.',
     'about.s1.p2': 'They brought their grandmother\'s ragù recipe, the oven from one of Emilia-Romagna\'s finest artisans, and a deal with a Tuscan oil maker who still sends us the first pressing every autumn.',
     'about.s2.title': 'A kitchen that doesn\'t compromise',
-    'about.s2.lede': 'Beef aged every week, fire every night, times that are respected.',
+    'about.s2.lede': 'Pasta every day, dough every day, sauces that respect time.',
     'about.s2.p1': 'Our kitchen opens at 6 a.m. Before the first guest arrives, Marco has already kneaded the day\'s tagliatelle, Lucia has lit the oven, and the tomato sauce has been reducing on a low flame for three hours.',
     'about.s2.p2': 'We use nothing frozen. Nothing precooked. Nothing we can\'t trace back to its source. It costs more, yes. But it\'s the only way to cook we know.',
     'about.s3.title': 'The people behind the table',
     'about.s3.lede': 'A team that feels like family, not staff.',
-    'about.s3.p1': 'Lorenzo runs the floor like his father ran the grill: with a careful eye and infinite patience. Sofia is the head of fire and guardian of the cellar. Marco is the grill-master who arrived nine years ago and never left.',
+    'about.s3.p1': 'Lorenzo runs the floor like his father ran the kitchen: with a careful eye and infinite patience. Sofia is the head chef and guardian of the recipes. Marco is the pasta-maker who arrived nine years ago and never left.',
     'about.s3.p2': 'When you walk in, Lorenzo recognizes you. Sofia peeks from the kitchen if you arrive smiling. Marco explains how the pasta was made if you ask. That\'s La Bruschetteria.',
 
     /* values */
@@ -318,14 +318,14 @@ const I18N = {
     'val4.title': 'Hospitality',
     'val4.body': 'Our table is your table.',
 
-    /* menu page */
+    /* menu */
     'menupage.title': 'The menu',
     'menupage.lede': 'Each dish is a love letter to a region of Italy.',
     'menutab.bruschettas': 'Bruschettas',
     'menutab.antipasti': 'Antipasti',
     'menutab.pasta': 'Pasta',
     'menutab.pizza': 'Pizza',
-    'menutab.mains': 'Meats & Fish',
+    'menutab.mains': 'Secondi',
     'menutab.desserts': 'Dolci',
     'menutab.drinks': 'Drinks',
     'menupage.note.title': 'Allergen information',
@@ -395,9 +395,7 @@ function setLang(lang) {
 function initHeader() {
   const header = document.querySelector('.site-header');
   if (!header) return;
-  const onScroll = () => {
-    header.classList.toggle('scrolled', window.scrollY > 40);
-  };
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40);
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 }
@@ -406,9 +404,7 @@ function initHeader() {
 function initMobileMenu() {
   const toggle = document.querySelector('.menu-toggle');
   if (!toggle) return;
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('menu-open');
-  });
+  toggle.addEventListener('click', () => document.body.classList.toggle('menu-open'));
   document.querySelectorAll('.nav-links a').forEach(a => {
     a.addEventListener('click', () => document.body.classList.remove('menu-open'));
   });
@@ -452,7 +448,7 @@ function initMenuTabs() {
   });
 }
 
-/* ---------- lightbox gallery ---------- */
+/* ---------- lightbox ---------- */
 function initLightbox() {
   const items = document.querySelectorAll('.gallery-item');
   if (!items.length) return;

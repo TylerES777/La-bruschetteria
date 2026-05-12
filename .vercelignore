@@ -1,0 +1,7 @@
+_extracted/
+.claude/
+serve.py
+*.py
+node_modules/
+.DS_Store
+Thumbs.db

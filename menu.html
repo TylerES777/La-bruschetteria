@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Carta · La Bruschetteria — Cocina italiana auténtica</title>
-<meta name="description" content="Descubre nuestra carta: bruschettas al horno de leña, pasta fresca, pizzas, carnes, pescados y dolci italianos. Producto de temporada, recetas tradicionales." />
+<title>Carta · La Bruschetteria — Auténtica cocina italiana</title>
+<meta name="description" content="Antipasti, bruschette y tablas para compartir. La carta tradicional de La Bruschetteria, una trattoria italiana en el corazón de Madrid." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=2">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 
@@ -35,363 +35,136 @@
   </div>
 </header>
 
-<!-- ╭─ PAGE HEADER ─────────────────────────────────────────────╮ -->
-<section class="page-header" style="--ph-bg:url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2000&q=80')">
+<section class="page-header" style="--ph-bg:url('https://images.unsplash.com/photo-1572441713132-c542fc4fe282?auto=format&fit=crop&w=2000&q=80')">
   <div class="container">
     <span class="eyebrow" style="color:var(--gold-2)" data-i18n="menu.eyebrow">Nuestra carta</span>
     <h1 data-i18n="menupage.title">La carta</h1>
-    <p class="lede" data-i18n="menupage.lede">Cada plato es una carta de amor a una región de Italia.</p>
+    <p class="lede" data-i18n="menupage.lede">Antipasti, bruschette y tablas para compartir. La cucina italiana de la nonna.</p>
     <div class="breadcrumb"><a href="/" data-i18n="nav.home">Inicio</a> · <span data-i18n="nav.menu">Carta</span></div>
   </div>
 </section>
 
-<!-- ╭─ MENU TABS & SECTIONS ────────────────────────────────────╮ -->
 <section>
   <div class="container">
     <div class="menu-tabs reveal">
-      <button class="menu-tab active" data-tab="bruschettas" data-i18n="menutab.bruschettas">Bruschettas</button>
-      <button class="menu-tab" data-tab="antipasti" data-i18n="menutab.antipasti">Antipasti</button>
-      <button class="menu-tab" data-tab="pasta" data-i18n="menutab.pasta">Pasta</button>
-      <button class="menu-tab" data-tab="pizza" data-i18n="menutab.pizza">Pizza</button>
-      <button class="menu-tab" data-tab="mains" data-i18n="menutab.mains">Secondi</button>
-      <button class="menu-tab" data-tab="desserts" data-i18n="menutab.desserts">Dolci</button>
-      <button class="menu-tab" data-tab="drinks" data-i18n="menutab.drinks">Bebidas</button>
+      <button class="menu-tab active" data-tab="antipasti" data-i18n="menutab.antipasti">Antipasti</button>
+      <button class="menu-tab" data-tab="bruschette" data-i18n="menutab.bruschette">Bruschette</button>
+      <button class="menu-tab" data-tab="compartir" data-i18n="menutab.compartir">Para Compartir</button>
     </div>
 
-    <!-- BRUSCHETTAS -->
-    <div class="menu-section active" data-section="bruschettas">
+    <!-- ╭─ ANTIPASTI ─────────────────────────────────────────╮ -->
+    <div class="menu-section active" data-section="antipasti">
       <div class="menu-list">
         <div class="menu-item">
-          <div class="menu-item-name">Classica al Pomodoro</div>
-          <div class="menu-item-price">8,50 €</div>
-          <div class="menu-item-desc">Pan toscano al horno de leña, tomate datterino, ajo, albahaca y aceite de oliva extra virgen toscano.</div>
+          <div class="menu-item-name">Panzerotti</div>
+          <div class="menu-item-price">4,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.panzerotti.desc">Croquetas de patata y mozzarella.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Burrata di Andria <span class="badge">DOP</span></div>
-          <div class="menu-item-price">11,00 €</div>
-          <div class="menu-item-desc">Burrata pugliese fresca, tomate semiseco, rúcula y reducción de balsámico de Modena.</div>
+          <div class="menu-item-name">Polpette di Melanzane</div>
+          <div class="menu-item-price">4,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.polpette.desc">Albóndigas de berenjena en salsa de tomate.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Prosciutto e Fichi</div>
-          <div class="menu-item-price">12,50 €</div>
-          <div class="menu-item-desc">Prosciutto di Parma 24 meses, higos frescos, mozzarella di bufala y miel de castaño.</div>
+          <div class="menu-item-name">Torta di Pasta al Forno</div>
+          <div class="menu-item-price">4,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.torta.desc">Torta de pasta con bechamel, mozzarella y salami italiano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Funghi Porcini <span class="badge">Temporada</span></div>
-          <div class="menu-item-price">13,00 €</div>
-          <div class="menu-item-desc">Boletus salteados al ajo y perejil sobre crema de parmesano y trufa negra fresca.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Salmone e Avocado</div>
-          <div class="menu-item-price">12,00 €</div>
-          <div class="menu-item-desc">Salmón marinado en eneldo, aguacate, alcaparras y crema agria.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Caprese del Vesuvio</div>
-          <div class="menu-item-price">9,80 €</div>
-          <div class="menu-item-desc">Mozzarella di bufala campana, tomate del Piennolo, pesto genovés y aceitunas taggiasche.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Tartare di Manzo</div>
-          <div class="menu-item-price">14,50 €</div>
-          <div class="menu-item-desc">Tartar de ternera de Chianina cortada a cuchillo, alcaparras, mostaza, yema curada y trufa.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Vegetariana del Orto <span class="badge">Veg</span></div>
-          <div class="menu-item-price">10,00 €</div>
-          <div class="menu-item-desc">Calabacín al carbón, berenjena, pimiento asado, hummus de garbanzo y semillas tostadas.</div>
+          <div class="menu-item-name">Arancini Siciliani <span class="badge gold">Clásico</span></div>
+          <div class="menu-item-price">5,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.arancini.desc">Bolitas de arroz rellenas de carne picada, guisantes y mozzarella.</div>
         </div>
       </div>
     </div>
 
-    <!-- ANTIPASTI -->
-    <div class="menu-section" data-section="antipasti">
+    <!-- ╭─ BRUSCHETTE ────────────────────────────────────────╮ -->
+    <div class="menu-section" data-section="bruschette">
       <div class="menu-list">
         <div class="menu-item">
-          <div class="menu-item-name">Tabla del Salumiere</div>
-          <div class="menu-item-price">22,00 €</div>
-          <div class="menu-item-desc">Selección de embutidos italianos: prosciutto di Parma, mortadella di Bologna, salame Felino y bresaola.</div>
+          <div class="menu-item-name">Tradizionale <span class="badge gold">La casa</span></div>
+          <div class="menu-item-price">4,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-trad.desc">Tomate fresco, cebolla y albahaca.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Tabla del Caseificio</div>
-          <div class="menu-item-price">19,50 €</div>
-          <div class="menu-item-desc">Cinco quesos italianos seleccionados: parmigiano 36 meses, gorgonzola, pecorino, taleggio y burrata.</div>
+          <div class="menu-item-name">Gorgonzola e Rucola</div>
+          <div class="menu-item-price">5,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-gorg.desc">Gorgonzola, rúcula, peperoncino, orégano y parmesano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Carpaccio di Manzo</div>
-          <div class="menu-item-price">15,00 €</div>
-          <div class="menu-item-desc">Carpaccio de ternera, virutas de parmesano, rúcula, alcaparras y limón de Sorrento.</div>
+          <div class="menu-item-name">Parmigiana</div>
+          <div class="menu-item-price">5,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-parm.desc">Berenjenas horneadas en salsa de tomate, mozzarella y parmesano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Vitello Tonnato</div>
-          <div class="menu-item-price">16,00 €</div>
-          <div class="menu-item-desc">Lomo de ternera al punto rosado bañado en salsa cremosa de atún, alcaparras y anchoas.</div>
+          <div class="menu-item-name">Caprese</div>
+          <div class="menu-item-price">5,45 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-capr.desc">Mozzarella de búfala, tomate cherry y albahaca fresca.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Polpo alla Griglia</div>
-          <div class="menu-item-price">17,50 €</div>
-          <div class="menu-item-desc">Pulpo a la parrilla, crema de patata trufada, aceitunas Kalamata y aceite de pimentón.</div>
+          <div class="menu-item-name">Burrata e Prosciutto</div>
+          <div class="menu-item-price">5,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-burr.desc">Burrata y jamón curado italiano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Insalata Caprese <span class="badge">Veg</span></div>
-          <div class="menu-item-price">13,00 €</div>
-          <div class="menu-item-desc">Tomate corazón de buey, mozzarella di bufala, albahaca y aceite ligure.</div>
+          <div class="menu-item-name">Salsiccia e Friarielli</div>
+          <div class="menu-item-price">5,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-sals.desc">Salchicha fresca napolitana, friarielli, mozzarella y orégano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Arancini Siciliani</div>
-          <div class="menu-item-price">11,00 €</div>
-          <div class="menu-item-desc">Croquetas de arroz al azafrán rellenas de ragù y mozzarella, sobre salsa de tomate San Marzano.</div>
+          <div class="menu-item-name">Mortadella e Pistacchio</div>
+          <div class="menu-item-price">5,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.b-mort.desc">Mortadella de pistacho con burrata fresca.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:64px;padding:48px;background:var(--ink);color:var(--paper);border-radius:var(--radius);text-align:center;position:relative;overflow:hidden">
+        <div style="position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--green) 0 33%,#fff 33% 66%,var(--red) 66%)"></div>
+        <span class="eyebrow" style="color:var(--gold-2);justify-content:center" data-i18n="m.b-mixto.eyebrow">Especialidad de la casa</span>
+        <h3 style="color:#fff;margin-top:14px;font-size:2rem;font-style:italic">Mixto De Bruschette</h3>
+        <p data-i18n="m.b-mixto.desc" style="margin:12px 0 18px;opacity:.9">6 unidades · Elección del chef · Una vuelta por nuestras bruschette favoritas.</p>
+        <div style="font-family:var(--display);font-size:1.6rem;font-weight:600;color:var(--gold-2)">13,95 €</div>
+      </div>
+    </div>
+
+    <!-- ╭─ PARA COMPARTIR ────────────────────────────────────╮ -->
+    <div class="menu-section" data-section="compartir">
+      <div class="menu-list">
+        <div class="menu-item">
+          <div class="menu-item-name">Melanzane alla Parmigiana <span class="badge gold">Clásico</span></div>
+          <div class="menu-item-price">5,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-parm.desc">Berenjenas horneadas con salsa de tomate, mozzarella y parmesano.</div>
         </div>
         <div class="menu-item">
-          <div class="menu-item-name">Fritto Misto del Mare</div>
-          <div class="menu-item-price">18,00 €</div>
-          <div class="menu-item-desc">Fritura ligera de calamar, gambas y pescado del día con limón, mayonesa de alioli.</div>
+          <div class="menu-item-name">Focaccia della Casa</div>
+          <div class="menu-item-price">7,25 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-foca.desc">Mozzarella, ajo y orégano.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Mini Pizze Fritte</div>
+          <div class="menu-item-price">7,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-pizf.desc">Selección de mini pizzas fritas en tres gustos diferentes.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Provolone Fuso</div>
+          <div class="menu-item-price">7,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-prov.desc">Cazuela de queso provolone fundido con salsa de tomate y pesto.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Cuoricini Ripieni <span class="badge hot">Picante</span></div>
+          <div class="menu-item-price">10,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-cuor.desc">Rellenos de ricotta, spianata (salami italiano picante), jamón cocido y parmesano.</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Tagliere Italiano <span class="badge gold">Para 2-4</span></div>
+          <div class="menu-item-price">18,95 €</div>
+          <div class="menu-item-desc" data-i18n="m.c-tagl.desc">Gran selección de quesos y embutidos italianos.</div>
         </div>
       </div>
     </div>
 
-    <!-- PASTA -->
-    <div class="menu-section" data-section="pasta">
-      <div class="menu-list">
-        <div class="menu-item">
-          <div class="menu-item-name">Tagliatelle al Ragù <span class="badge gold">La casa</span></div>
-          <div class="menu-item-price">16,50 €</div>
-          <div class="menu-item-desc">Receta de la nonna: ragù boloñés cocinado seis horas, tagliatelle al huevo hechos a mano cada mañana.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Spaghetti Cacio e Pepe</div>
-          <div class="menu-item-price">14,00 €</div>
-          <div class="menu-item-desc">Pecorino romano, pimienta nera, agua de cocción. Tres ingredientes, una vida de práctica.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Spaghetti alle Vongole</div>
-          <div class="menu-item-price">19,00 €</div>
-          <div class="menu-item-desc">Almejas frescas, ajo, perejil, vino blanco y un toque de guindilla.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Ravioli di Zucca</div>
-          <div class="menu-item-price">17,00 €</div>
-          <div class="menu-item-desc">Ravioli rellenos de calabaza asada, mantequilla de salvia, amaretti triturados y parmesano.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Linguine al Tartufo Nero <span class="badge hot">Premium</span></div>
-          <div class="menu-item-price">26,00 €</div>
-          <div class="menu-item-desc">Linguine al huevo, mantequilla noisette, parmesano y trufa negra fresca rallada en mesa.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Gnocchi Sorrentina</div>
-          <div class="menu-item-price">15,00 €</div>
-          <div class="menu-item-desc">Ñoquis de patata, salsa de tomate San Marzano, mozzarella di bufala y albahaca al horno.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Lasagna della Domenica</div>
-          <div class="menu-item-price">17,50 €</div>
-          <div class="menu-item-desc">Lasaña tradicional al ragù, bechamel y parmesano, horneada como en casa de la nonna los domingos.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Risotto ai Funghi <span class="badge">Temporada</span></div>
-          <div class="menu-item-price">18,00 €</div>
-          <div class="menu-item-desc">Risotto Carnaroli con boletus, mantecado al parmesano y aceite de trufa.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Pappardelle al Cinghiale</div>
-          <div class="menu-item-price">19,50 €</div>
-          <div class="menu-item-desc">Pappardelle al huevo con ragù de jabalí cocinado en Chianti durante ocho horas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Penne all'Arrabbiata <span class="badge hot">Picante</span></div>
-          <div class="menu-item-price">13,00 €</div>
-          <div class="menu-item-desc">Penne, salsa de tomate, ajo, guindilla calabresa y perejil. Sencillo y eléctrico.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- PIZZA -->
-    <div class="menu-section" data-section="pizza">
-      <div class="menu-list">
-        <div class="menu-item">
-          <div class="menu-item-name">Margherita D.O.C. <span class="badge gold">Clásico</span></div>
-          <div class="menu-item-price">12,50 €</div>
-          <div class="menu-item-desc">Tomate San Marzano DOP, mozzarella di bufala, albahaca y aceite ligure.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Diavola</div>
-          <div class="menu-item-price">14,50 €</div>
-          <div class="menu-item-desc">Tomate, mozzarella fior di latte, salame piccante calabrese y aceite de guindilla.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Quattro Formaggi</div>
-          <div class="menu-item-price">15,00 €</div>
-          <div class="menu-item-desc">Mozzarella, gorgonzola DOP, taleggio y parmesano 24 meses sobre base bianca.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Tartufata <span class="badge hot">Premium</span></div>
-          <div class="menu-item-price">22,00 €</div>
-          <div class="menu-item-desc">Crema de trufa negra, mozzarella, champiñón Portobello, huevo y trufa fresca al servir.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Capricciosa</div>
-          <div class="menu-item-price">15,50 €</div>
-          <div class="menu-item-desc">Tomate, mozzarella, jamón cocido, alcachofas, champiñones, aceitunas y huevo.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Prosciutto e Burrata</div>
-          <div class="menu-item-price">17,00 €</div>
-          <div class="menu-item-desc">Tomate, mozzarella, prosciutto di Parma, burrata fresca al servir y rúcula.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Vegetariana <span class="badge">Veg</span></div>
-          <div class="menu-item-price">14,00 €</div>
-          <div class="menu-item-desc">Tomate, mozzarella, calabacín, berenjena, pimiento asado, alcachofa y aceitunas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Quattro Stagioni</div>
-          <div class="menu-item-price">15,50 €</div>
-          <div class="menu-item-desc">La pizza de las cuatro estaciones: jamón, alcachofas, champiñones y aceitunas en cuadrantes.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- MAINS -->
-    <div class="menu-section" data-section="mains">
-      <div class="menu-list">
-        <div class="menu-item">
-          <div class="menu-item-name">Ossobuco alla Milanese</div>
-          <div class="menu-item-price">26,00 €</div>
-          <div class="menu-item-desc">Jarrete de ternera braseado en azafrán, gremolata, sobre risotto milanés.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Tagliata di Manzo</div>
-          <div class="menu-item-price">28,00 €</div>
-          <div class="menu-item-desc">Entrecot de Chianina al carbón, virutas de parmesano, rúcula y reducción de balsámico.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Saltimbocca alla Romana</div>
-          <div class="menu-item-price">22,00 €</div>
-          <div class="menu-item-desc">Escalopa de ternera con prosciutto y salvia, salsa de mantequilla al vino blanco.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Branzino al Sale</div>
-          <div class="menu-item-price">29,00 €</div>
-          <div class="menu-item-desc">Lubina entera horneada en costra de sal y hierbas, pesto de albahaca y patatas confitadas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Polpo alla Brace</div>
-          <div class="menu-item-price">25,00 €</div>
-          <div class="menu-item-desc">Pulpo a la brasa, alubias canellini al romero, aceite de pimentón y limón confitado.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Cotoletta alla Milanese</div>
-          <div class="menu-item-price">23,00 €</div>
-          <div class="menu-item-desc">Chuleta de ternera empanada con mantequilla noisette, ensalada de tomate y rúcula.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Costata di Agnello</div>
-          <div class="menu-item-price">27,00 €</div>
-          <div class="menu-item-desc">Costillar de cordero al romero, puré de berenjena ahumada y aceite de albahaca.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Pesce del Giorno <span class="badge">Mercado</span></div>
-          <div class="menu-item-price">SQ</div>
-          <div class="menu-item-desc">Pescado fresco del día. Pregunta a tu camarero por el pescado y la preparación.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- DESSERTS -->
-    <div class="menu-section" data-section="desserts">
-      <div class="menu-list">
-        <div class="menu-item">
-          <div class="menu-item-name">Tiramisù della Casa <span class="badge gold">Imprescindible</span></div>
-          <div class="menu-item-price">8,50 €</div>
-          <div class="menu-item-desc">Receta de la familia: mascarpone, café espresso, savoiardi, cacao y un toque de Marsala.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Panna Cotta ai Frutti Rossi</div>
-          <div class="menu-item-price">7,50 €</div>
-          <div class="menu-item-desc">Panna cotta de vainilla de Madagascar, coulis de frutos rojos y crumble de almendra.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Cannoli Siciliani</div>
-          <div class="menu-item-price">8,00 €</div>
-          <div class="menu-item-desc">Trío de cannoli rellenos de ricotta de oveja, pistacho de Bronte y chocolate.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Affogato al Caffè</div>
-          <div class="menu-item-price">6,50 €</div>
-          <div class="menu-item-desc">Helado de vainilla bañado en espresso doble. Simple, perfecto.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Torta della Nonna</div>
-          <div class="menu-item-price">7,80 €</div>
-          <div class="menu-item-desc">Tarta tradicional toscana de crema pastelera, piñones tostados y azúcar glas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Sfogliatella Napoletana</div>
-          <div class="menu-item-price">7,00 €</div>
-          <div class="menu-item-desc">Hojaldre crujiente relleno de ricotta, sémola y ralladura de naranja confitada.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Selección de Helados Artesanos</div>
-          <div class="menu-item-price">6,00 €</div>
-          <div class="menu-item-desc">Tres bolas a elegir: pistacho, stracciatella, fior di latte, frambuesa, café o limón.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Plato di Formaggi</div>
-          <div class="menu-item-price">14,00 €</div>
-          <div class="menu-item-desc">Selección de cinco quesos italianos con miel, mermeladas y pan tostado.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- DRINKS -->
-    <div class="menu-section" data-section="drinks">
-      <div class="menu-list">
-        <div class="menu-item">
-          <div class="menu-item-name">Aperol Spritz</div>
-          <div class="menu-item-price">8,50 €</div>
-          <div class="menu-item-desc">Aperol, Prosecco di Valdobbiadene DOCG, soda y rodaja de naranja.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Negroni</div>
-          <div class="menu-item-price">10,00 €</div>
-          <div class="menu-item-desc">Campari, vermouth rosso Carpano, ginebra. Servido en roca grande.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Limoncello della Casa</div>
-          <div class="menu-item-price">5,00 €</div>
-          <div class="menu-item-desc">Limoncello casero hecho con limones de Sorrento, servido helado.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Chianti Classico DOCG</div>
-          <div class="menu-item-price">28,00 €</div>
-          <div class="menu-item-desc">Botella · Toscana. Sangiovese estructurado, taninos elegantes. Pareja perfecta para las pastas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Barolo DOCG <span class="badge gold">Reserva</span></div>
-          <div class="menu-item-price">68,00 €</div>
-          <div class="menu-item-desc">Botella · Piemonte. El rey del Nebbiolo. Para carnes, ossobuco y celebraciones.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Prosecco di Valdobbiadene</div>
-          <div class="menu-item-price">26,00 €</div>
-          <div class="menu-item-desc">Botella · Veneto. Burbujas finas, fruta blanca, perfecto como apertura.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Pinot Grigio Friuli</div>
-          <div class="menu-item-price">22,00 €</div>
-          <div class="menu-item-desc">Botella · Friuli. Blanco fresco y mineral, ideal para pescados y bruschettas.</div>
-        </div>
-        <div class="menu-item">
-          <div class="menu-item-name">Espresso · Cappuccino</div>
-          <div class="menu-item-price">2,00 €</div>
-          <div class="menu-item-desc">Café 100% arábica tostado por nuestro amigo Pino en Nápoles.</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="form-success reveal" style="margin-top:60px;background:rgba(185,146,74,.12);border-color:var(--gold);color:var(--ink);text-align:center;padding:32px">
-      <h4 style="margin:0 0 8px;color:var(--terracotta)" data-i18n="menupage.note.title">Información alérgenos</h4>
+    <div class="form-success reveal" style="margin-top:60px;background:rgba(29,111,66,.08);border-color:var(--green);color:var(--ink);text-align:center;padding:32px;display:block;opacity:1;transform:none">
+      <h4 style="margin:0 0 8px;color:var(--green)" data-i18n="menupage.note.title">Información alérgenos</h4>
       <p style="margin:0;color:var(--muted)" data-i18n="menupage.note.body">Pídale a su camarero la carta de alérgenos. Adaptamos platos para opciones sin gluten y vegetarianas siempre que es posible.</p>
     </div>
 
@@ -401,7 +174,6 @@
   </div>
 </section>
 
-<!-- ╭─ FOOTER ──────────────────────────────────────────────────╮ -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
@@ -410,7 +182,7 @@
           <span class="brand-mark">B</span>
           <span class="brand-name">La Bruschetteria<small>Trattoria · 2008</small></span>
         </a>
-        <p data-i18n="foot.tagline">Cucina italiana tradizionale. Pasta fresca, pizza al horno y la mesa puesta como en casa.</p>
+        <p data-i18n="foot.tagline">Cucina italiana tradizionale. Antipasti, bruschette y la mesa puesta como en casa.</p>
         <div class="socials">
           <a href="#" aria-label="Instagram">📷</a>
           <a href="#" aria-label="Facebook">f</a>
@@ -452,6 +224,6 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=4"></script>
 </body>
 </html>

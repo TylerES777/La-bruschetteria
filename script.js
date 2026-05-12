@@ -45,22 +45,30 @@ const I18N = {
 
     /* menu preview */
     'menu.eyebrow': 'Nuestra carta',
-    'menu.title': 'Antipasti, bruschette y tablas',
-    'menu.lede': 'Una carta corta, honesta e italiana de verdad. Lo que más nos gusta cocinar, hecho como en casa.',
-    'menu.cat1': 'Antipasti',
-    'menu.cat1.desc': 'Panzerotti, polpette y arancini.',
-    'menu.cat2': 'Bruschette',
-    'menu.cat2.desc': 'El corazón de nuestra casa.',
-    'menu.cat3': 'Para Compartir',
-    'menu.cat3.desc': 'Parmigiana, focaccia, tagliere.',
+    'menu.title': 'La cucina italiana, hecha bien',
+    'menu.lede': 'Bruschette, antipasti, pasta fresca casera, pizzas al horno y dolci. Una carta amplia y honesta, hecha como en casa.',
+    'menu.cat1': 'Bruschette',
+    'menu.cat1.desc': 'Tradizionale, Burrata, Napoletana y más.',
+    'menu.cat2': 'Pasta Fresca',
+    'menu.cat2.desc': 'Hecha a mano cada mañana.',
+    'menu.cat3': 'Pizza',
+    'menu.cat3.desc': 'Margherita, Diavola, Capricciosa, 6 Formaggi.',
+    'menu.cat4': 'Tagliere & Dolci',
+    'menu.cat4.desc': 'Tagliere italiano, tiramisù, cannoli.',
     'menu.viewAll': 'Ver carta completa',
 
     /* menu page – tabs */
-    'menutab.antipasti':  'Antipasti',
-    'menutab.bruschette': 'Bruschette',
-    'menutab.compartir':  'Para Compartir',
-    'menupage.title':     'La carta',
-    'menupage.lede':      'Antipasti, bruschette y tablas para compartir. La cucina italiana de la nonna.',
+    'menutab.bruschette':  'Bruschette',
+    'menutab.antipasti':   'Antipasti',
+    'menutab.compartir':   'Para Compartir',
+    'menutab.insalata':    'Insalata & Lasagna',
+    'menutab.pasta':       'Pasta',
+    'menutab.pastafresca': 'Pasta Fresca',
+    'menutab.specialita':  'Specialità',
+    'menutab.pizza':       'Pizza',
+    'menutab.postres':     'Dolci',
+    'menupage.title':      'La carta',
+    'menupage.lede':       'Bruschette, antipasti, pasta fresca casera, pizzas al horno y dolci. Como en una trattoria italiana de verdad.',
     'menupage.note.title':'Información alérgenos',
     'menupage.note.body': 'Pídale a su camarero la carta de alérgenos. Adaptamos platos para opciones sin gluten y vegetarianas siempre que es posible.',
 
@@ -121,13 +129,13 @@ const I18N = {
 
     /* hours / footer */
     'hours.title': 'Horario',
-    'hours.body': 'Martes a Domingo<br>13:00 — 16:00 · 19:30 — 23:30<br><small>Lunes cerrado</small>',
+    'hours.body': 'Martes a Domingo<br>13:00 — 16:00 · 19:30 — 23:30<br><small>Vie–Sáb · 19:00–23:30</small>',
     'addr.title': 'Dirección',
-    'addr.body': 'Calle del Olivo, 24<br>28004 Madrid · España',
+    'addr.body': 'C. Almáchar, 4<br>29640 Fuengirola · Málaga',
     'phone.title': 'Teléfono',
-    'phone.body': '+34 91 555 24 18',
+    'phone.body': '+34 951 77 49 81',
     'mail.title': 'Email',
-    'mail.body': 'reservas@labruschetteria.es',
+    'mail.body': 'info@labruschetteria.es',
 
     /* footer */
     'foot.tagline': 'Cucina italiana tradizionale. Pasta fresca, pizza al horno y la mesa puesta como en casa.',
@@ -209,7 +217,7 @@ const I18N = {
     'form.book': 'Confirmar reserva',
     'form.book.success': '¡Reserva recibida! Recibirás un correo de confirmación en breve.',
     'res.note.title': '¿Necesitas algo más?',
-    'res.note.body': 'Para reservas privadas, eventos o grupos grandes, llámanos al +34 91 555 24 18 o escríbenos a eventos@labruschetteria.es',
+    'res.note.body': 'Para reservas privadas, eventos o grupos grandes, llámanos al +34 951 77 49 81 o escríbenos a info@labruschetteria.es',
   },
 
   en: {
@@ -253,22 +261,30 @@ const I18N = {
 
     /* menu preview */
     'menu.eyebrow': 'Our menu',
-    'menu.title': 'Antipasti, bruschette and sharing boards',
-    'menu.lede': 'A short, honest, genuinely Italian menu. What we love to cook, done the way it was done at home.',
-    'menu.cat1': 'Antipasti',
-    'menu.cat1.desc': 'Panzerotti, polpette and arancini.',
-    'menu.cat2': 'Bruschette',
-    'menu.cat2.desc': 'The heart of our house.',
-    'menu.cat3': 'To Share',
-    'menu.cat3.desc': 'Parmigiana, focaccia, tagliere.',
+    'menu.title': 'Italian cooking, done right',
+    'menu.lede': 'Bruschette, antipasti, fresh handmade pasta, wood-fired pizzas and dolci. A broad, honest menu cooked the way it\'s cooked at home.',
+    'menu.cat1': 'Bruschette',
+    'menu.cat1.desc': 'Tradizionale, Burrata, Napoletana and more.',
+    'menu.cat2': 'Fresh Pasta',
+    'menu.cat2.desc': 'Hand-made every morning.',
+    'menu.cat3': 'Pizza',
+    'menu.cat3.desc': 'Margherita, Diavola, Capricciosa, 6 Formaggi.',
+    'menu.cat4': 'Tagliere & Dolci',
+    'menu.cat4.desc': 'Italian platter, tiramisù, cannoli.',
     'menu.viewAll': 'See full menu',
 
     /* menu page – tabs */
-    'menutab.antipasti':  'Antipasti',
-    'menutab.bruschette': 'Bruschette',
-    'menutab.compartir':  'To Share',
-    'menupage.title':     'The menu',
-    'menupage.lede':      'Antipasti, bruschette and sharing boards. Nonna\'s Italian cooking.',
+    'menutab.bruschette':  'Bruschette',
+    'menutab.antipasti':   'Antipasti',
+    'menutab.compartir':   'To Share',
+    'menutab.insalata':    'Salads & Lasagna',
+    'menutab.pasta':       'Pasta',
+    'menutab.pastafresca': 'Fresh Pasta',
+    'menutab.specialita':  'Chef\'s Specials',
+    'menutab.pizza':       'Pizza',
+    'menutab.postres':     'Dolci',
+    'menupage.title':      'The menu',
+    'menupage.lede':       'Bruschette, antipasti, fresh handmade pasta, wood-fired pizzas and dolci. Like a real Italian trattoria.',
     'menupage.note.title':'Allergen information',
     'menupage.note.body': 'Ask your server for the allergen list. We adapt dishes for gluten-free and vegetarian options whenever possible.',
 
@@ -329,13 +345,13 @@ const I18N = {
 
     /* hours / footer */
     'hours.title': 'Hours',
-    'hours.body': 'Tuesday to Sunday<br>1:00 PM — 4:00 PM · 7:30 PM — 11:30 PM<br><small>Closed Monday</small>',
+    'hours.body': 'Monday to Thursday · 7:00 PM — 11:30 PM<br>Friday to Saturday · 1:00 PM — 4:00 PM &amp; 7:00 PM — 11:30 PM<br><small>Closed Sunday</small>',
     'addr.title': 'Address',
-    'addr.body': '24 Calle del Olivo<br>28004 Madrid · Spain',
+    'addr.body': 'C. Almáchar, 4<br>29640 Fuengirola · Málaga',
     'phone.title': 'Phone',
-    'phone.body': '+34 91 555 24 18',
+    'phone.body': '+34 951 77 49 81',
     'mail.title': 'Email',
-    'mail.body': 'reservations@labruschetteria.es',
+    'mail.body': 'info@labruschetteria.es',
 
     /* footer */
     'foot.tagline': 'Traditional Italian cooking. Fresh pasta, wood-fired pizza and a table set like at home.',
@@ -417,7 +433,7 @@ const I18N = {
     'form.book': 'Confirm booking',
     'form.book.success': 'Booking received! You\'ll get a confirmation email shortly.',
     'res.note.title': 'Need anything else?',
-    'res.note.body': 'For private bookings, events or large groups, call us at +34 91 555 24 18 or write to events@labruschetteria.es',
+    'res.note.body': 'For private bookings, events or large groups, call us at +34 951 77 49 81 or write to events@labruschetteria.es',
   }
 };
 

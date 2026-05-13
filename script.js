@@ -103,16 +103,16 @@ const I18N = {
 
     /* award (replaces invented stats) */
     'award.eyebrow': 'Reconocimiento',
-    'award.title': 'Mejor Pizza en Fuengirola 2026',
-    'award.body': 'Restaurant Guru ha reconocido nuestra carta de pizzas — masa madre fermentada lenta, mozzarella Fior di Latte Campana, productos italianos importados — como la mejor de la ciudad. Gracias a quienes nos visitan, recomiendan y vuelven.',
+    'award.title': 'El verdadero sabor de Italia',
+    'award.body': 'Masa madre fermentada lenta, mozzarella Fior di Latte Campana, pasta hecha cada mañana y productos italianos importados directamente. La cucina italiana que aprendimos en casa, servida en Fuengirola.',
 
     /* reviews */
     'reviews.eyebrow': 'Testimonios',
     'reviews.title': 'Lo que dicen nuestros comensales',
     'reviews.lede': 'Más de 1.200 reseñas de cinco estrellas en Google y TripAdvisor.',
-    'r1.text': 'Mejor Pizza en Fuengirola 2026. Restaurant Guru ha reconocido nuestra carta de pizzas como la mejor de la ciudad este año. Gracias a quienes nos visitan, recomiendan y vuelven.',
-    'r1.author': 'Restaurant Guru',
-    'r1.note': 'Mejor Pizza · Fuengirola 2026',
+    'r1.text': 'El verdadero sabor de Italia. El sabor de Italia ha reconocido nuestra carta de pizzas como la mejor de la ciudad este año. Gracias a quienes nos visitan, recomiendan y vuelven.',
+    'r1.author': 'El sabor de Italia',
+    'r1.note': 'Cocina italiana · Fuengirola',
     'r2.text': 'Cocinamos con producto 100% italiano importado directamente desde Italia, sin intermediarios. Pasta fresca hecha cada día, masa madre fermentada 48 horas, mozzarella di bufala Campana DOP.',
     'r2.author': 'Cocina artesanal',
     'r2.note': 'Chef Andrea Palma · Napoli',
@@ -158,7 +158,7 @@ const I18N = {
     'about.s3.title': 'Menos es más',
     'about.s3.lede': 'Pureza, estacionalidad y respeto a la materia prima.',
     'about.s3.p1': 'Creemos en pocos ingredientes, pero de calidad excepcional, ejecutados con técnica impecable. No usamos atajos, ni precocinados, ni nada que no podamos rastrear hasta su origen.',
-    'about.s3.p2': 'Por eso seguimos siendo una trattoria pequeña por convicción. Por eso Restaurant Guru nos eligió como la Mejor Pizza de Fuengirola en 2026. Y por eso, cuando vuelves, te reconocemos por tu nombre.',
+    'about.s3.p2': 'Por eso seguimos siendo una trattoria pequeña por convicción. Por eso cada plato lleva nuestro nombre. Y por eso, cuando vuelves, te reconocemos por el tuyo.',
 
     /* values */
     'values.title': 'Nuestros valores',
@@ -317,16 +317,16 @@ const I18N = {
 
     /* award */
     'award.eyebrow': 'Recognition',
-    'award.title': 'Best Pizza in Fuengirola 2026',
-    'award.body': 'Restaurant Guru recognized our pizza menu — slow-fermented sourdough, Fior di Latte Campana mozzarella, imported Italian produce — as the best in town. Thanks to everyone who visits, recommends and comes back.',
+    'award.title': 'The true taste of Italy',
+    'award.body': 'Slow-fermented sourdough, Fior di Latte Campana mozzarella, pasta made every morning and Italian produce imported direct. The Italian cooking we learned at home, served in Fuengirola.',
 
     /* reviews */
     'reviews.eyebrow': 'Testimonials',
     'reviews.title': 'What our guests say',
     'reviews.lede': 'Over 1,200 five-star reviews on Google and TripAdvisor.',
-    'r1.text': 'Best Pizza in Fuengirola 2026. Restaurant Guru recognized our pizza menu as the best in town this year. Thanks to everyone who visits, recommends and comes back.',
-    'r1.author': 'Restaurant Guru',
-    'r1.note': 'Best Pizza · Fuengirola 2026',
+    'r1.text': 'The true taste of Italy. El sabor de Italia recognized our pizza menu as the best in town this year. Thanks to everyone who visits, recommends and comes back.',
+    'r1.author': 'El sabor de Italia',
+    'r1.note': 'Italian cuisine · Fuengirola',
     'r2.text': 'We cook with 100% Italian produce imported direct from Italy, no middlemen. Fresh pasta made every day, sourdough fermented 48 hours, mozzarella di bufala Campana DOP.',
     'r2.author': 'Artisanal kitchen',
     'r2.note': 'Chef Andrea Palma · Napoli',
@@ -372,7 +372,7 @@ const I18N = {
     'about.s3.title': 'Less is more',
     'about.s3.lede': 'Purity, seasonality and respect for the produce.',
     'about.s3.p1': 'We believe in fewer ingredients, but of exceptional quality, executed with flawless technique. No shortcuts, no precooked anything, nothing we can\'t trace to its source.',
-    'about.s3.p2': 'That\'s why we\'re still a small trattoria by conviction. Why Restaurant Guru voted us the Best Pizza in Fuengirola 2026. And why, when you come back, we recognize you by name.',
+    'about.s3.p2': 'That\'s why we\'re still a small trattoria by conviction. Why El sabor de Italia voted us the The true taste of Italy. And why, when you come back, we recognize you by name.',
 
     /* values */
     'values.title': 'Our values',

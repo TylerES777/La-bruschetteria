@@ -53,8 +53,8 @@ const I18N = {
     'menu.cat2.desc': 'Hecha a mano cada mañana.',
     'menu.cat3': 'Pizza',
     'menu.cat3.desc': 'Margherita, Diavola, Capricciosa, 6 Formaggi.',
-    'menu.cat4': 'Tagliere & Dolci',
-    'menu.cat4.desc': 'Tagliere italiano, tiramisù, cannoli.',
+    'menu.cat4': 'Dolci',
+    'menu.cat4.desc': 'Tiramisù, cannoli, tortino di pistacchio.',
     'menu.viewAll': 'Ver carta completa',
 
     /* menu page – tabs */
